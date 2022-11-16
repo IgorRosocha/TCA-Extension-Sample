@@ -1,0 +1,1191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9D33D850998A049B4F0E3F /* TcaExtensionUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B77CD4850E4A26EE8F7BD /* TcaExtensionUI.framework */; };
+		0F9D8D3F7B821FC3D6A80B1D /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5879D8033393E626E23269 /* Dependencies.framework */; platformFilter = ios; };
+		118BAC76CB9AFC9CBAD6A2EB /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B54FF32B15233B5426BB0A /* Clocks.framework */; platformFilter = ios; };
+		1908331B6183A44372957CF0 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F57F4783AE2104A49C61DF /* ComposableArchitecture.framework */; platformFilter = ios; };
+		22B92427E5A0A90C5BAACC2B /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1D7D9B852A173D1339BDF7 /* CustomDump.framework */; platformFilter = ios; };
+		2507DE9BE865C515F3DEC648 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C8E780FBBCB7DFEA30ACE0 /* CombineSchedulers.framework */; platformFilter = ios; };
+		26FE50E3FF850CDFAD5E0E69 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5879D8033393E626E23269 /* Dependencies.framework */; platformFilter = ios; };
+		28F149F58FCDE5E5D0E4316B /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DBD01CB87D982F0AD94AFF /* OrderedCollections.framework */; platformFilter = ios; };
+		2A95ACA893ED0E56700507F1 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167B36048E409FCE346CC657 /* CasePaths.framework */; platformFilter = ios; };
+		2ABDE66177B48D5F73FAB808 /* TcaExtensionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452FBDC198D4BA9C6A29ADCA /* TcaExtensionKit.framework */; };
+		2FAEABE812D88421CE108499 /* TcaExtensionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA807DE9591092BC6FC077 /* TcaExtensionUI.swift */; };
+		45853999AA0541A4E7940F25 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AAEB5ACE25D64B2D9BAFAC /* IdentifiedCollections.framework */; platformFilter = ios; };
+		4FD4C071A7A85CADB230232C /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994F4BFE7DB2B7DA375C7CE4 /* XCTestDynamicOverlay.framework */; platformFilter = ios; };
+		5355DA924CA00F079DF6DEE5 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B54FF32B15233B5426BB0A /* Clocks.framework */; platformFilter = ios; };
+		615C1855060D614D376B6AF9 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DBD01CB87D982F0AD94AFF /* OrderedCollections.framework */; platformFilter = ios; };
+		6823947F949AB22EBFEC084F /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5879D8033393E626E23269 /* Dependencies.framework */; platformFilter = ios; };
+		6C2AEB0ABD0118CED1F1D646 /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B54FF32B15233B5426BB0A /* Clocks.framework */; platformFilter = ios; };
+		73355EF4A926B88801273D85 /* TcaExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CD6F8B37CCD2E73C1D577 /* TcaExtensionUITests.swift */; };
+		8550683F4BAE43D2AEB32B55 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A453740DA4BAA990C3559 /* AppTests.swift */; };
+		87A5978C1F725DF16B75CE94 /* TcaExtensionUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B77CD4850E4A26EE8F7BD /* TcaExtensionUI.framework */; };
+		894FE385FF27076DF65899D1 /* TcaExtensionUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 979B77CD4850E4A26EE8F7BD /* TcaExtensionUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94E5AC69C3937B6CEB003C70 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DBD01CB87D982F0AD94AFF /* OrderedCollections.framework */; platformFilter = ios; };
+		97D18E297BC46F44A1A91CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70354A135C5F28FD751900B0 /* LaunchScreen.storyboard */; };
+		9ABBE7ED46D772A157C048D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F9FAA103AF1D0959087C85 /* AppDelegate.swift */; };
+		9E20A6F222A06950EBF6C4A4 /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167B36048E409FCE346CC657 /* CasePaths.framework */; platformFilter = ios; };
+		9F1DC5ED635EED2641494757 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994F4BFE7DB2B7DA375C7CE4 /* XCTestDynamicOverlay.framework */; platformFilter = ios; };
+		A149FBF47E2BDE89D81F3701 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F57F4783AE2104A49C61DF /* ComposableArchitecture.framework */; platformFilter = ios; };
+		B3C9635A19E4792EBD635E33 /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F57F4783AE2104A49C61DF /* ComposableArchitecture.framework */; platformFilter = ios; };
+		B560B4F7FF8B94C65C03C81B /* TcaExtensionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DC845222091F290DE27B3 /* TcaExtensionKit.swift */; };
+		B73FCF9CEB8D49AF226EC4D6 /* TcaExtensionKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 452FBDC198D4BA9C6A29ADCA /* TcaExtensionKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B84D23CFFE4A1B8B7B7EBA2E /* TcaExtensionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5620229EBD47857A2E80324B /* TcaExtensionKitTests.swift */; };
+		CB30C8AA364A4DF9DD6F2EF2 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AAEB5ACE25D64B2D9BAFAC /* IdentifiedCollections.framework */; platformFilter = ios; };
+		CEC338FECFA35BF7FCB964DD /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1D7D9B852A173D1339BDF7 /* CustomDump.framework */; platformFilter = ios; };
+		D387BA3C9B5CEA38D1FE4D1C /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167B36048E409FCE346CC657 /* CasePaths.framework */; platformFilter = ios; };
+		D50FDA0E56F8660AE1D42B71 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1D7D9B852A173D1339BDF7 /* CustomDump.framework */; platformFilter = ios; };
+		DA571154182B08A4E69F2249 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C8E780FBBCB7DFEA30ACE0 /* CombineSchedulers.framework */; platformFilter = ios; };
+		DF161C907B4FFA306DDA9651 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994F4BFE7DB2B7DA375C7CE4 /* XCTestDynamicOverlay.framework */; platformFilter = ios; };
+		E103D100C9E1D58E72357787 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C8E780FBBCB7DFEA30ACE0 /* CombineSchedulers.framework */; platformFilter = ios; };
+		EAB7969EB92FD8F61242416E /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AAEB5ACE25D64B2D9BAFAC /* IdentifiedCollections.framework */; platformFilter = ios; };
+		F5DFF6FB4FC5915B1A35FEC3 /* TcaExtensionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452FBDC198D4BA9C6A29ADCA /* TcaExtensionKit.framework */; };
+		FB3FF3A5A5F70297D7BC7B8C /* TuistBundle+TcaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BC4EEE881CC641F4F3C53 /* TuistBundle+TcaExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22EE1202024DDBC9E194E5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1307FEDBC5153EC20653630E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACBC891AFA3009C19F66C6E;
+			remoteInfo = TcaExtensionKit;
+		};
+		2AA463723BE92AF6F590B59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1307FEDBC5153EC20653630E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0958BA01DEE0FF3A1DB2B684;
+			remoteInfo = TcaExtensionUI;
+		};
+		58E7A2CEEEBDC4B86CE76387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1307FEDBC5153EC20653630E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0958BA01DEE0FF3A1DB2B684;
+			remoteInfo = TcaExtensionUI;
+		};
+		7A017F421E249B59F04E70BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1307FEDBC5153EC20653630E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 453388318EAD52A8D771F7B0;
+			remoteInfo = TcaExtension;
+		};
+		8666C79CC9B53FA901A288AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1307FEDBC5153EC20653630E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EACBC891AFA3009C19F66C6E;
+			remoteInfo = TcaExtensionKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33E234BD1A735441283D9A34 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37AC1DEA7CC7A45666AE7897 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4953F17DE0A437072621B72B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2CF27B87BF3EF66863CF70 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B73FCF9CEB8D49AF226EC4D6 /* TcaExtensionKit.framework in Embed Frameworks */,
+				894FE385FF27076DF65899D1 /* TcaExtensionUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93260D478EC595AE6540C09 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1786CEFAEBF0B0CE73E765 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03C35E58793E45995398B8A5 /* TcaExtensionUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TcaExtensionUITests-Info.plist"; sourceTree = "<group>"; };
+		167B36048E409FCE346CC657 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1D7D9B852A173D1339BDF7 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364BC4EEE881CC641F4F3C53 /* TuistBundle+TcaExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TcaExtension.swift"; sourceTree = "<group>"; };
+		452FBDC198D4BA9C6A29ADCA /* TcaExtensionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TcaExtensionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA807DE9591092BC6FC077 /* TcaExtensionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TcaExtensionUI.swift; sourceTree = "<group>"; };
+		5620229EBD47857A2E80324B /* TcaExtensionKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TcaExtensionKitTests.swift; sourceTree = "<group>"; };
+		5898D383B91EB8A55903559B /* TcaExtensionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TcaExtensionTests-Info.plist"; sourceTree = "<group>"; };
+		61213AC72D7740F12C25702A /* TcaExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TcaExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D0129A2F807655D2D152F8 /* TcaExtensionKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TcaExtensionKit-Info.plist"; sourceTree = "<group>"; };
+		65911CB5A50E900F2A2E4318 /* TcaExtension-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TcaExtension-Info.plist"; sourceTree = "<group>"; };
+		70354A135C5F28FD751900B0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		799A453740DA4BAA990C3559 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		979B77CD4850E4A26EE8F7BD /* TcaExtensionUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TcaExtensionUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AAEB5ACE25D64B2D9BAFAC /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		994F4BFE7DB2B7DA375C7CE4 /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5879D8033393E626E23269 /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8E780FBBCB7DFEA30ACE0 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA489E1720EDFCBFE0C33EC /* TcaExtensionKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TcaExtensionKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEC7DD38328ED8299E44902 /* TcaExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TcaExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF426B9227E84E414A964355 /* TcaExtensionUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TcaExtensionUI-Info.plist"; sourceTree = "<group>"; };
+		C40CD6F8B37CCD2E73C1D577 /* TcaExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TcaExtensionUITests.swift; sourceTree = "<group>"; };
+		C5B54FF32B15233B5426BB0A /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DBD01CB87D982F0AD94AFF /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DC845222091F290DE27B3 /* TcaExtensionKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TcaExtensionKit.swift; sourceTree = "<group>"; };
+		E5F9FAA103AF1D0959087C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC65912671BDB161E49508C1 /* TcaExtensionKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TcaExtensionKitTests-Info.plist"; sourceTree = "<group>"; };
+		F0032835E8BCCB5986389E86 /* TcaExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TcaExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F57F4783AE2104A49C61DF /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0411D3CBA3F7EFC57B7F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A95ACA893ED0E56700507F1 /* CasePaths.framework in Frameworks */,
+				5355DA924CA00F079DF6DEE5 /* Clocks.framework in Frameworks */,
+				DA571154182B08A4E69F2249 /* CombineSchedulers.framework in Frameworks */,
+				A149FBF47E2BDE89D81F3701 /* ComposableArchitecture.framework in Frameworks */,
+				22B92427E5A0A90C5BAACC2B /* CustomDump.framework in Frameworks */,
+				6823947F949AB22EBFEC084F /* Dependencies.framework in Frameworks */,
+				EAB7969EB92FD8F61242416E /* IdentifiedCollections.framework in Frameworks */,
+				615C1855060D614D376B6AF9 /* OrderedCollections.framework in Frameworks */,
+				9F1DC5ED635EED2641494757 /* XCTestDynamicOverlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B4F977659B4D71F8F4241B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659F56445C43E592818B35FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D387BA3C9B5CEA38D1FE4D1C /* CasePaths.framework in Frameworks */,
+				118BAC76CB9AFC9CBAD6A2EB /* Clocks.framework in Frameworks */,
+				E103D100C9E1D58E72357787 /* CombineSchedulers.framework in Frameworks */,
+				B3C9635A19E4792EBD635E33 /* ComposableArchitecture.framework in Frameworks */,
+				D50FDA0E56F8660AE1D42B71 /* CustomDump.framework in Frameworks */,
+				0F9D8D3F7B821FC3D6A80B1D /* Dependencies.framework in Frameworks */,
+				CB30C8AA364A4DF9DD6F2EF2 /* IdentifiedCollections.framework in Frameworks */,
+				28F149F58FCDE5E5D0E4316B /* OrderedCollections.framework in Frameworks */,
+				4FD4C071A7A85CADB230232C /* XCTestDynamicOverlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A565DA3884A26BC356242A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DFF6FB4FC5915B1A35FEC3 /* TcaExtensionKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1FEF1D2FBAF87194D8532D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABDE66177B48D5F73FAB808 /* TcaExtensionKit.framework in Frameworks */,
+				0C9D33D850998A049B4F0E3F /* TcaExtensionUI.framework in Frameworks */,
+				9E20A6F222A06950EBF6C4A4 /* CasePaths.framework in Frameworks */,
+				6C2AEB0ABD0118CED1F1D646 /* Clocks.framework in Frameworks */,
+				2507DE9BE865C515F3DEC648 /* CombineSchedulers.framework in Frameworks */,
+				1908331B6183A44372957CF0 /* ComposableArchitecture.framework in Frameworks */,
+				CEC338FECFA35BF7FCB964DD /* CustomDump.framework in Frameworks */,
+				26FE50E3FF850CDFAD5E0E69 /* Dependencies.framework in Frameworks */,
+				45853999AA0541A4E7940F25 /* IdentifiedCollections.framework in Frameworks */,
+				94E5AC69C3937B6CEB003C70 /* OrderedCollections.framework in Frameworks */,
+				DF161C907B4FFA306DDA9651 /* XCTestDynamicOverlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE23366A5A28EF79FB139A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A5978C1F725DF16B75CE94 /* TcaExtensionUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077371B7388D3A3130074D87 /* TcaExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				2FF109B2F27BF96B68B9B5C5 /* Sources */,
+				10A8765C079DFB91C66DB09E /* Tests */,
+			);
+			path = TcaExtensionUI;
+			sourceTree = "<group>";
+		};
+		10A8765C079DFB91C66DB09E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C40CD6F8B37CCD2E73C1D577 /* TcaExtensionUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1E24B240F14A9F2D473747F4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				799A453740DA4BAA990C3559 /* AppTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		2FF109B2F27BF96B68B9B5C5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA807DE9591092BC6FC077 /* TcaExtensionUI.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3E99C69F8FCC4516B76091C4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E5F9FAA103AF1D0959087C85 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		59EB5105D911AE93561464E8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5620229EBD47857A2E80324B /* TcaExtensionKitTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5C61764A19A16BC0E5BD47A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68BDF4AB87A61424ED2E5C3A /* TcaExtensionKit */ = {
+			isa = PBXGroup;
+			children = (
+				874B282A8F72CE555F4078B4 /* Sources */,
+				59EB5105D911AE93561464E8 /* Tests */,
+			);
+			path = TcaExtensionKit;
+			sourceTree = "<group>";
+		};
+		6F9E2B851F9D16C17856B90E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				364BC4EEE881CC641F4F3C53 /* TuistBundle+TcaExtension.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		836EB67DCFAE1C9E948753FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70354A135C5F28FD751900B0 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		874B282A8F72CE555F4078B4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D70DC845222091F290DE27B3 /* TcaExtensionKit.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B179EE98EE934D89CEFBFD42 /* TcaExtension */ = {
+			isa = PBXGroup;
+			children = (
+				836EB67DCFAE1C9E948753FE /* Resources */,
+				3E99C69F8FCC4516B76091C4 /* Sources */,
+				1E24B240F14A9F2D473747F4 /* Tests */,
+			);
+			path = TcaExtension;
+			sourceTree = "<group>";
+		};
+		C9AF6EEC741E43BE45E4BB15 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				E486D47A1177409653882051 /* InfoPlists */,
+				6F9E2B851F9D16C17856B90E /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		D5B4D4D322D253B63A2BFB4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167B36048E409FCE346CC657 /* CasePaths.framework */,
+				C5B54FF32B15233B5426BB0A /* Clocks.framework */,
+				A0C8E780FBBCB7DFEA30ACE0 /* CombineSchedulers.framework */,
+				F2F57F4783AE2104A49C61DF /* ComposableArchitecture.framework */,
+				1A1D7D9B852A173D1339BDF7 /* CustomDump.framework */,
+				9B5879D8033393E626E23269 /* Dependencies.framework */,
+				98AAEB5ACE25D64B2D9BAFAC /* IdentifiedCollections.framework */,
+				D4DBD01CB87D982F0AD94AFF /* OrderedCollections.framework */,
+				61213AC72D7740F12C25702A /* TcaExtension.app */,
+				452FBDC198D4BA9C6A29ADCA /* TcaExtensionKit.framework */,
+				AAA489E1720EDFCBFE0C33EC /* TcaExtensionKitTests.xctest */,
+				F0032835E8BCCB5986389E86 /* TcaExtensionTests.xctest */,
+				979B77CD4850E4A26EE8F7BD /* TcaExtensionUI.framework */,
+				BDEC7DD38328ED8299E44902 /* TcaExtensionUITests.xctest */,
+				994F4BFE7DB2B7DA375C7CE4 /* XCTestDynamicOverlay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E45E1263627DFDDFE1D5B6EE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				C9AF6EEC741E43BE45E4BB15 /* Derived */,
+				F3FC975D52A596578D30B1F4 /* Targets */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		E486D47A1177409653882051 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				65911CB5A50E900F2A2E4318 /* TcaExtension-Info.plist */,
+				63D0129A2F807655D2D152F8 /* TcaExtensionKit-Info.plist */,
+				EC65912671BDB161E49508C1 /* TcaExtensionKitTests-Info.plist */,
+				5898D383B91EB8A55903559B /* TcaExtensionTests-Info.plist */,
+				BF426B9227E84E414A964355 /* TcaExtensionUI-Info.plist */,
+				03C35E58793E45995398B8A5 /* TcaExtensionUITests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		F2C202A79BE1E40BA9E410BE = {
+			isa = PBXGroup;
+			children = (
+				E45E1263627DFDDFE1D5B6EE /* Project */,
+				5C61764A19A16BC0E5BD47A5 /* Frameworks */,
+				D5B4D4D322D253B63A2BFB4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FC975D52A596578D30B1F4 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				B179EE98EE934D89CEFBFD42 /* TcaExtension */,
+				68BDF4AB87A61424ED2E5C3A /* TcaExtensionKit */,
+				077371B7388D3A3130074D87 /* TcaExtensionUI */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0958BA01DEE0FF3A1DB2B684 /* TcaExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFD972B6C4F3579C43AFEE1 /* Build configuration list for PBXNativeTarget "TcaExtensionUI" */;
+			buildPhases = (
+				68FDA92D493A98CDB7F809D4 /* Sources */,
+				8FF0E86175B02103CEE0E811 /* Resources */,
+				33E234BD1A735441283D9A34 /* Embed Frameworks */,
+				659F56445C43E592818B35FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TcaExtensionUI;
+			productName = TcaExtensionUI;
+			productReference = 979B77CD4850E4A26EE8F7BD /* TcaExtensionUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		453388318EAD52A8D771F7B0 /* TcaExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9255101BB419FB1E5FE559 /* Build configuration list for PBXNativeTarget "TcaExtension" */;
+			buildPhases = (
+				A96C060C88C5F996BC858848 /* Sources */,
+				CA0926DF6802366E1EF52AC7 /* Resources */,
+				AD2CF27B87BF3EF66863CF70 /* Embed Frameworks */,
+				8D1FEF1D2FBAF87194D8532D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F727EE936CCF2CB7DAC76FA /* PBXTargetDependency */,
+				F2E6DC27E1B74C73738C04A0 /* PBXTargetDependency */,
+			);
+			name = TcaExtension;
+			productName = TcaExtension;
+			productReference = 61213AC72D7740F12C25702A /* TcaExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AC6DB2F656FA353F69EA257 /* TcaExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9584F8AA1652363996F66BDA /* Build configuration list for PBXNativeTarget "TcaExtensionUITests" */;
+			buildPhases = (
+				A8A5810849597FCF2C9A9BB8 /* Sources */,
+				482C969045CD7F3A2320DC5C /* Resources */,
+				E93260D478EC595AE6540C09 /* Embed Frameworks */,
+				BE23366A5A28EF79FB139A91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D353974046CDD6133A5C587 /* PBXTargetDependency */,
+			);
+			name = TcaExtensionUITests;
+			productName = TcaExtensionUITests;
+			productReference = BDEC7DD38328ED8299E44902 /* TcaExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8998392179A8332FFA5F30E9 /* TcaExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29F283506311B4FFD3BFB4E /* Build configuration list for PBXNativeTarget "TcaExtensionTests" */;
+			buildPhases = (
+				E0ACC1C869B6B1FDECB2B8C9 /* Sources */,
+				83D2C0A7AFDBC74F562477D3 /* Resources */,
+				4953F17DE0A437072621B72B /* Embed Frameworks */,
+				41B4F977659B4D71F8F4241B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230DD54897E4C2F1BED0E6B4 /* PBXTargetDependency */,
+			);
+			name = TcaExtensionTests;
+			productName = TcaExtensionTests;
+			productReference = F0032835E8BCCB5986389E86 /* TcaExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB5E779270875EE5E54D1030 /* TcaExtensionKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781ADF771AE085BD94415C60 /* Build configuration list for PBXNativeTarget "TcaExtensionKitTests" */;
+			buildPhases = (
+				EF690CC5773687657512E4D2 /* Sources */,
+				34B741308492092ECFBCD7C3 /* Resources */,
+				ED1786CEFAEBF0B0CE73E765 /* Embed Frameworks */,
+				88A565DA3884A26BC356242A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EF3E17201653D91143F9F4 /* PBXTargetDependency */,
+			);
+			name = TcaExtensionKitTests;
+			productName = TcaExtensionKitTests;
+			productReference = AAA489E1720EDFCBFE0C33EC /* TcaExtensionKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EACBC891AFA3009C19F66C6E /* TcaExtensionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAACECA4304457CA724698F /* Build configuration list for PBXNativeTarget "TcaExtensionKit" */;
+			buildPhases = (
+				A15ED25DD61FF88B08374892 /* Sources */,
+				5A376E5F40923F1B57FC2F37 /* Resources */,
+				37AC1DEA7CC7A45666AE7897 /* Embed Frameworks */,
+				3C0411D3CBA3F7EFC57B7F63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TcaExtensionKit;
+			productName = TcaExtensionKit;
+			productReference = 452FBDC198D4BA9C6A29ADCA /* TcaExtensionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1307FEDBC5153EC20653630E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = tuist.io;
+				TargetAttributes = {
+					8998392179A8332FFA5F30E9 = {
+						TestTargetID = 453388318EAD52A8D771F7B0;
+					};
+				};
+			};
+			buildConfigurationList = DAB527DBE1E7FDE9AD3A91FC /* Build configuration list for PBXProject "TcaExtension" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F2C202A79BE1E40BA9E410BE;
+			productRefGroup = D5B4D4D322D253B63A2BFB4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453388318EAD52A8D771F7B0 /* TcaExtension */,
+				8998392179A8332FFA5F30E9 /* TcaExtensionTests */,
+				EACBC891AFA3009C19F66C6E /* TcaExtensionKit */,
+				BB5E779270875EE5E54D1030 /* TcaExtensionKitTests */,
+				0958BA01DEE0FF3A1DB2B684 /* TcaExtensionUI */,
+				7AC6DB2F656FA353F69EA257 /* TcaExtensionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B741308492092ECFBCD7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482C969045CD7F3A2320DC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A376E5F40923F1B57FC2F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D2C0A7AFDBC74F562477D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF0E86175B02103CEE0E811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0926DF6802366E1EF52AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D18E297BC46F44A1A91CE8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68FDA92D493A98CDB7F809D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAEABE812D88421CE108499 /* TcaExtensionUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15ED25DD61FF88B08374892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B560B4F7FF8B94C65C03C81B /* TcaExtensionKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A5810849597FCF2C9A9BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73355EF4A926B88801273D85 /* TcaExtensionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96C060C88C5F996BC858848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3FF3A5A5F70297D7BC7B8C /* TuistBundle+TcaExtension.swift in Sources */,
+				9ABBE7ED46D772A157C048D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ACC1C869B6B1FDECB2B8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8550683F4BAE43D2AEB32B55 /* AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF690CC5773687657512E4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84D23CFFE4A1B8B7B7EBA2E /* TcaExtensionKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D353974046CDD6133A5C587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TcaExtensionUI;
+			target = 0958BA01DEE0FF3A1DB2B684 /* TcaExtensionUI */;
+			targetProxy = 58E7A2CEEEBDC4B86CE76387 /* PBXContainerItemProxy */;
+		};
+		230DD54897E4C2F1BED0E6B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TcaExtension;
+			target = 453388318EAD52A8D771F7B0 /* TcaExtension */;
+			targetProxy = 7A017F421E249B59F04E70BB /* PBXContainerItemProxy */;
+		};
+		67EF3E17201653D91143F9F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TcaExtensionKit;
+			target = EACBC891AFA3009C19F66C6E /* TcaExtensionKit */;
+			targetProxy = 22EE1202024DDBC9E194E5E0 /* PBXContainerItemProxy */;
+		};
+		6F727EE936CCF2CB7DAC76FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TcaExtensionKit;
+			target = EACBC891AFA3009C19F66C6E /* TcaExtensionKit */;
+			targetProxy = 8666C79CC9B53FA901A288AC /* PBXContainerItemProxy */;
+		};
+		F2E6DC27E1B74C73738C04A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TcaExtensionUI;
+			target = 0958BA01DEE0FF3A1DB2B684 /* TcaExtensionUI */;
+			targetProxy = 2AA463723BE92AF6F590B59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A0B25E2A01AB8DA503D816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionKit;
+				PRODUCT_NAME = TcaExtensionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E5BCB29A85E354A970E799E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionUI;
+				PRODUCT_NAME = TcaExtensionUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2562B33C23D475DB21E70AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionUI;
+				PRODUCT_NAME = TcaExtensionUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5585A60DC5FB650373B43100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionKitTests;
+				PRODUCT_NAME = TcaExtensionKitTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C20AD9577CBE77B3404B5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionKitTests;
+				PRODUCT_NAME = TcaExtensionKitTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E28F4AF9F6A55346C9ED49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionKit;
+				PRODUCT_NAME = TcaExtensionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EEEE1C89755A74CB4A3B415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtension-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtension;
+				PRODUCT_NAME = TcaExtension;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D7FBE7D86919709D0C1C05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionUITests;
+				PRODUCT_NAME = TcaExtensionUITests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AEC1B307B274B70CE5839E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DEA06C995071F8AC7FE8B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60C2B62D5E6838C651D37F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionUITests;
+				PRODUCT_NAME = TcaExtensionUITests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2BEA3DB83921C4ABA7DFD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionTests;
+				PRODUCT_NAME = TcaExtensionTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TcaExtension.app/TcaExtension";
+				TEST_TARGET_NAME = TcaExtension;
+			};
+			name = Release;
+		};
+		E131FA57F4F99D58AE3E8948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtension-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtension;
+				PRODUCT_NAME = TcaExtension;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA59C2037A4573B9F9BB3C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TcaExtensionTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TcaExtensionTests;
+				PRODUCT_NAME = TcaExtensionTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TcaExtension.app/TcaExtension";
+				TEST_TARGET_NAME = TcaExtension;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		781ADF771AE085BD94415C60 /* Build configuration list for PBXNativeTarget "TcaExtensionKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C20AD9577CBE77B3404B5E4 /* Debug */,
+				5585A60DC5FB650373B43100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9584F8AA1652363996F66BDA /* Build configuration list for PBXNativeTarget "TcaExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7FBE7D86919709D0C1C05D /* Debug */,
+				B60C2B62D5E6838C651D37F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAACECA4304457CA724698F /* Build configuration list for PBXNativeTarget "TcaExtensionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E28F4AF9F6A55346C9ED49B /* Debug */,
+				08A0B25E2A01AB8DA503D816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFD972B6C4F3579C43AFEE1 /* Build configuration list for PBXNativeTarget "TcaExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2562B33C23D475DB21E70AE5 /* Debug */,
+				1E5BCB29A85E354A970E799E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29F283506311B4FFD3BFB4E /* Build configuration list for PBXNativeTarget "TcaExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA59C2037A4573B9F9BB3C1B /* Debug */,
+				D2BEA3DB83921C4ABA7DFD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB527DBE1E7FDE9AD3A91FC /* Build configuration list for PBXProject "TcaExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEC1B307B274B70CE5839E1 /* Debug */,
+				9DEA06C995071F8AC7FE8B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9255101BB419FB1E5FE559 /* Build configuration list for PBXNativeTarget "TcaExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EEEE1C89755A74CB4A3B415 /* Debug */,
+				E131FA57F4F99D58AE3E8948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1307FEDBC5153EC20653630E /* Project object */;
+}
